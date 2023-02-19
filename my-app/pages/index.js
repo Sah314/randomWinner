@@ -215,9 +215,9 @@ return(
           <div className={styles.log} key={index}>{log}</div>
           ))}
       </div>
-          <img src="./randomWinner.png" alt="" className={styles.image} />
+          <img src="./console.png" alt="" className={styles.image} />
     </div>
-    <footer className={styles.footer}>Made with &#10084; by <a href="https://www.linkedin.com/in/sahil-khadayate/" >Sahil Khadayate </a> </footer>
+    <footer className={styles.footer}>Made with &#10084; by <span> </span> <a href="https://www.linkedin.com/in/sahil-khadayate/" > Sahil Khadayate </a> </footer>
   </div>
 )
 }

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -14,7 +14,7 @@ contract RandomWinnerGame is VRFConsumerBase , Ownable {
     uint256 entryFee;
     uint256 public gameId;
 
-    event GameStarted(uint256 gameId, uint8 maxPlayers, uint256 entryFee);
+    event  GameStarted(uint256 gameId, uint8 maxPlayers, uint256 entryFee);
     event playerJoined(uint256 gameId , address player);
     event gameEnded(uint256 gameId, address winner,bytes32 requestId);
 
